@@ -1,58 +1,76 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-
-        <link type="" href="">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!--jQuery library--> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="google.css" type="text/css">
+        
         <title>
-google
+            Google
         </title>
-        <style>
-            #navbar{
-                display:block ;
-                block-size: auto;
-                text-align: right;text-decoration: solid;
-            }
-            #gmail,#images{
-                padding:20px;
-                padding-top: 41px;
-                height: 89px;
-                font-weight: 400;
-                font-size: large;
-            }
-body{
-    text-align: center;
-}
-header{
-    margin: 200px 200px 0px 200px;
-  <!--> background-image:url(https://yt3.ggpht.com/a/AATXAJxerV2NHlUV4lid7wyDnYecKchSmHw5ffuYoA=s48-c-k-c0xffffffff-no-rj-mo);-->
-}
-#submit,#button {
-    margin: 10px 0px 10px 0px;
-    padding: 3px 8px 3px 8px;
-   
-}
-#se
-        </style>
     </head>
 <body>
-    <div id="navbar" class="navbar" >
-<a id="gmail"href="">gmail</a>
-<a id="images" href="">images</a>
-<a href="" ><span class="gb_Ia gbii" aria-hidden="true"></span></a>
-    </div>
-    <header>
-        Google 
-    </header><br>
-    <div style="text-align: center;">
-       <input type="text" name="" class="" id="search" style="border-radius: 8%;"><br><br>
-    <input type="submit" id="submit" name="search" class="search" value="google search">
-    
-    <input type="button" id="button"value="i'm feeling lucky" >
+ <div class="navbar">
+     <ul id="navbar_list" >
+         <li><a id="gmail" href="gmail.com" style="text-decoration: none;">Gmail</a></li>
+         <li><a id="images" href="googlephots.com" style="text-decoration: none;">Images</a></li>
+         <li><a id="tools" href=""><span class="glyphicon glyphicon-th"></span></a></li>
+         <li><a id="account" href=""><span class="glyphicon glyphicon-user"></span></a></li>
+     </ul>
+
 </div>
-    <h5>Helpful tips to avoid COVID-19 online scams</h5><br>
-    <h5>Google offered in: <span type="language"class="hindi">hindi </span>punjabi marathi gujrati malaya tamil odiya bangla assamse </h5>
-    
-    
+ <center>
+ <div id="google_image">
+     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+ </div><br>
+
+ <div>
+     <form>
+         <div id="search_box">
+             <span id="search_icon"class="glyphicon glyphicon-search"></span><input type="text" name="search" id="inner_search_box" >
+         </div><br>
+     
+         <div id="imfeelinglucky">
+             <input id="search_button"type="submit" value="Google Search">
+             <a href=""><input id="imfl_button" type="button" value="I'm Feeling Lucky"></a>
+         </div>
+    </form>
+ </div><br>
+ <div id="health_tip">
+     <a href="">Helpful tips to avoid COVID-19 online scams</a>
+ </div><br>
+ <div id=lang_info>
+    <span id=google_offer" style="color: black;">Google offered in: </span>
+     <a href=""> हिन्दी</a>
+     <a href=""> বাংলা </a>
+     <a href="">తెలుగు </a>
+     <a href="">मराठी </a>
+     <a href="">தமிழ் </a>
+     <a href="">ગુજરાતી </a>
+     <a href="">ಕನ್ನಡ </a>
+     <a href="">മലയാളം </a>
+     <a href="">ਪੰਜਾਬੀ </a>
+ </div>
+</center>
+<div class="footer">
+    <div id="india"><span>India</span></div>
+    <ul>
+        <div id="footer_left">
+            <li><a class="footer_link" href="">Advertising</a></li>
+            <li><a class="footer_link" href="">Busubess</a></li>
+            <li><a class="footer_link" href="">About</a></li>
+            <li><a class="footer_link" href="">How Search works</a></li>
+        </div>
+        <div id="footer_right">
+            <li><a class="footer_link" href="">Privacy</a></li>
+            <li><a class="footer_link" href="">Terms</a></li>
+            <li><a id="setting" class="footer_link" href="">Setting</a></li>
+        </div>
+    </ul>
+</div>
 </body>
 </html>
